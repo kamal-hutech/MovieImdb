@@ -20,7 +20,7 @@ const Header = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0)
-  })
+  }, [location])
 
   const controlNavbar = () => {
     console.log(window.scrollY)
